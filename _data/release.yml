@@ -1,0 +1,9 @@
+- fileName: file1.zip
+  path: files/file1.zip
+
+- fileName : file2.zip
+  path: files/file2.zip
+
+- fileName : file3.zip
+  path: files/file3.zip
+

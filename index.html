@@ -5,7 +5,13 @@ title: myWebSite
 <html>
 <body>
 Site Name : {{ page.title }}
-<br>
-Current date : {{ 'now' | date: "%c" }}
+<br/>
+Published date : {{ 'now' | date: "%c" }}
+<br/>
+{% for release in site.data.release %}
+<a href='{{ release.path }}'>{{ release.fileName }} </a>
+<br/>
+{% endfor %}
 </body>
+
 </html>
