@@ -7,3 +7,6 @@
 - fileName : file3.zip
   path: files/file3.zip
 
+- fileName: file4.zip
+  path: files/file4.zip
+
